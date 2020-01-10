@@ -55,10 +55,10 @@ exclude_patterns = []
 #
 # At the top.
 #------------------------------------
-import sphinx_bootstrap_theme
+#import sphinx_bootstrap_theme
 # Activate the theme.
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+# html_theme = 'bootstrap'
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 #------------------------------------
 html_theme = 'sphinx_rtd_theme'
 #------------------------------------
