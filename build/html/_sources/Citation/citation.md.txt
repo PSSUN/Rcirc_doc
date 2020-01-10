@@ -1,0 +1,7 @@
+# Rcirc
+
+Rcirc: an R package for circular RNA
+
+## Journal
+
+GPB
