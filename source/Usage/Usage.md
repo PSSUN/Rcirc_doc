@@ -1,5 +1,5 @@
 # Usage
-Rcirc is an user-friendly R package.
+The package provides numerous analyses for both upstream and downstream research, including circRNA detection, coding ability identification, single feature analyses and visualization of meta-features. Furthermore, the users can visualize the read mapping for each back-splice junction of circRNA by using Rcirc with sequencing data.  
 
 ## Prediction
 
