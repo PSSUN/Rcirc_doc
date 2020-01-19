@@ -1,18 +1,34 @@
 # Usage
-Rcirc is a capable and user-friendly package based on the R language. The package provides numerous analyses for both upstream and downstream research, including circRNA detection, coding ability identification, single feature analyses and visualization of meta-features. Furthermore, the users can visualize the read mapping for each back-splice junction of circRNA by using Rcirc with sequencing data.
+Rcirc is an user-friendly R package.
 
 ## Prediction
+
+**PredictCirc()** can help to predict circRNA by RNA-seq data.
+
+```R
+# load the data
+sam = '/path/to/sam/file'
+fa = '/path/to/fasta/file'
+out = '/path/to/output/floder'
+gtf = '/path/to/genome/gtf/file'  
+
+# analysis
+PredictCirc(sam=sam, fa=fa, out=out, gtf=gtf)
+
+```
 
 ## Downstream analysis
 
 ### Find the stem-ring structure
 
-**stemRing()** function can help to find out the stem-ring stucture from the given **circRNAs bed file** and **genome fasta file** by compare the upstream and downstrean sequence.
+**stemRing()** function can help to find out the stem-ring stucture from the given **circRNAs bed file** and **genome fasta file** by compare the upstream and downstrean sequence. It can output a csv file which contains all the information.
+
 ```R
 # load the data
 circbed = '/path/to/circRNA/bed/file'
 genomefasta = '/path/to/genome/fasta/file'
 out = '/path/to/the/output/file'  
+len = 1000   # The length (bp) of upstream and downstream to find the stem-ring structure
 
 # analysis
 stemRing(circbed=circbed, genomefasta=genomefasta, out=out)
