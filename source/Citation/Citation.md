@@ -2,7 +2,7 @@
 
 ## Title
 
-Rcirc: an R package for circRNA analyses and visualization
+**Rcirc: an R package for circRNA analyses and visualization**
 
 ## Journal
 
