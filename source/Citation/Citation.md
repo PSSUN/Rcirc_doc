@@ -6,7 +6,7 @@ Rcirc: an R package for circRNA analyses and visualization
 
 ## Journal
 
-GPB
+Unpublished
 
 ## Author
 
