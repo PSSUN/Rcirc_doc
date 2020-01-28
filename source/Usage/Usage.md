@@ -13,7 +13,7 @@ out = '/path/to/output/floder'
 gtf = '/path/to/genome/gtf/file'  
 
 # analysis
-PredictCirc(sam=sam, fa=fa, out=out, gtf=gtf)
+PredictCirc(sam = sam, fa = fa, out = out, gtf = gtf)
 
 ```
 
@@ -31,7 +31,7 @@ out = '/path/to/the/output/file'
 len = 1000   # The length (bp) of upstream and downstream to find the stem-ring structure
 
 # analysis
-stemRing(circbed=circbed, genomefasta=genomefasta, out=out)
+stemRing(circbed = circbed, genomefasta = genomefasta, out = out)
 ```
 
 ### View the splice-signal
@@ -42,8 +42,19 @@ data = '/path/to/circRNA/fasta/file'
 max = 30  # the number of splice-signal types to show in barplot
 
 # analysis
-showJunction(data=data, max=30)
+showJunction(data = data, max = 30)
 ```
+
+###
+**showCodon()** can help to display triplet codon composition frequency.
+```R
+# load the data
+x = '/path/to/circRNA/fasta/file'  
+
+# analysis
+showCodon(x = x)
+```
+
 
 ### Analysis the type distribution
 **classByType()** can help to classify the given circRNAs into different type, you need to input **2** file to run this function: **circRNA bed file** and **genome annotation file** in gff format.
@@ -54,7 +65,7 @@ circbed = '/path/to/circRNA/bed/file/'
 gff = '/path/to/genome/gff/file'  
 
 # analysis
-classByType(circbed=circbed, gff=gff)
+classByType(circbed = circbed, gff = gff)
 
 ```
 
@@ -70,11 +81,11 @@ ribo = '/path/to/ribo-seq/bam/file'   # A bam file that align Ribo-seq data to g
 rna = '/path/to/rna-seq/bam/file'     # A bam file that align RNA-seq data to genome
 
 # analysis 
-showOverview(circbed=circbed,
- 	gff=gff,
- 	genomefasta=genomefasta,
- 	ribo=ribo, 
- 	rna=rna
+showOverview(circbed = circbed,
+ 	gff = gff,
+ 	genomefasta = genomefasta,
+ 	ribo = ribo, 
+ 	rna = rna
 )
 ```
 
@@ -87,7 +98,7 @@ bam = '/path/to/bam/file'
 gff = '/path/to/gff/file'  
 
 # analysis 
-summary <- circ_summary(bamfile=bam, gff=gff)
+summary <- circ_summary(bamfile = bam, gff = gff)
 ```
 
 *summary* is a dataframe which contains all the information of mapping reads, *summary* can also be used as the input of function **mappingPlot()**.
@@ -98,7 +109,7 @@ Rcirc can also help to view the mapping situation on sequences like IGV by the f
 ```R
 # load data
 fa = '/path/to/virtual/genome/fasta/file'
-summary <- circ_summary(bamfile=bam, gff=gff)  
+summary <- circ_summary(bamfile = bam, gff = gff)  
 
 # parameter
 index = 1         # The index of circRNA you want to view 
@@ -106,12 +117,12 @@ upstream = 100    # Upstream distance to junction (bp)
 downstream = 100  # Downstream distance to junction (bp)
   
 # analysis  
-pic <- mappingPlot(summary=summary,
-                   circ_index=index,
- 	           genomefile=fa,
-		   upstream=upstream,
-		   downstream=downstream,
-                   style='aside'
+pic <- mappingPlot(summary = summary,
+                   circ_index = index,
+ 	           genomefile = fa,
+		   upstream = upstream,
+		   downstream = downstream,
+                   style = 'aside'
 )
 ```
 
