@@ -45,7 +45,7 @@ max = 30  # the number of splice-signal types to show in barplot
 showJunction(data = data, max = 30)
 ```
 
-###
+### View the codon
 **showCodon()** can help to display triplet codon composition frequency.
 ```R
 # load the data
