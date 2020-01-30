@@ -1,6 +1,18 @@
 # Usage
 The package provides numerous analyses for both upstream and downstream research, including circRNA detection, coding ability identification, single feature analyses and visualization of meta-features. Furthermore, the users can visualize the read mapping for each back-splice junction of circRNA by using Rcirc with sequencing data.  
 
+## Download data
+
+**downloadCircRNA()** can help to download the circRNA data from published database, usage:
+
+```R
+# download
+downloadCircRNA(speice = 'ath', out = '/path/to/out/file')  
+
+# Note: speice should bed one of: 'ath' 'zma' 'asa' 'mm10' 'rat' 'zeb' 'fly' 'worm'.
+```
+ 
+
 ## Prediction
 
 **PredictCirc()** can help to predict circRNA by RNA-seq data.
