@@ -7,9 +7,9 @@ The package provides numerous analyses for both upstream and downstream research
 
 ```R
 # download
-downloadCircRNA(speice = 'ath', out = '/path/to/out/file')  
+downloadCircRNA(speices = 'ath', out = '/path/to/out/file') 
 
-# Note: speice should bed one of: 'ath' 'zma' 'asa' 'mm10' 'rat' 'zeb' 'fly' 'worm'.
+# Note: speices should bed one of: 'ath' 'zma' 'asa' 'mm10' 'rat' 'zeb' 'fly' 'worm'.
 ```
  
 
