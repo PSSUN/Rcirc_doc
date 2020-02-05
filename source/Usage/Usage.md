@@ -15,6 +15,23 @@ downloadCircRNA(speices = 'ath', out = '/path/to/out/file')
 
 ## Prediction
 
+**TranslateCirc()** can help to deal raw data and map to circRNA genome.
+```R
+# load the data
+out = '/path/to/output/bam/file'
+fastq = '/path/to/Ribo-seq/fastq'
+adapter = '/path/to/adapter'
+trimmomatic = '/path/to/trimmomatic/jre/file'
+genome = '/path/to/genome'
+tmp = '/path/to/tmp/file'
+circgenome = '/path/to/circRNA/genome'
+rRNA = '/path/to/rRNA'
+
+# analysis
+TranslateCirc(out,fastq,adapter,trimmomatic,genome,tmp,circgenome,rRNA)
+```
+
+
 **PredictCirc()** can help to predict circRNA by RNA-seq data.
 
 ```R
