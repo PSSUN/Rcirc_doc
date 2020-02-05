@@ -13,4 +13,4 @@ You can use Rcirc to predict the novo circRNA, and use Rcirc to identify their c
 
 ## Operating system
 Linux or MacOS
-
+GitHub page: [Rcirc](https://github.com/PSSUN/Rcirc)
