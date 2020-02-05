@@ -17,4 +17,4 @@ Linux or MacOS
 
 GitHub page: [Rcirc](https://github.com/PSSUN/Rcirc)  
 
-Gitee page: [Gitee](https://gitee.com/pssun/Rcirc)
+Gitee page: [Rcirc](https://gitee.com/pssun/Rcirc)
