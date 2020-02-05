@@ -12,7 +12,8 @@ From top to bottom are shown the identification of circRNAs, identification of c
 You can use Rcirc to predict the novo circRNA, and use Rcirc to identify their coding ability. Even more exciting, you can use it to visualize the circRNA you are interested in. You can even implement the same function as the IGV for circular RNA in R.
 
 ## Operating system
-Linux or MacOS
+Linux or MacOS  
 
----
+
 GitHub page: [Rcirc](https://github.com/PSSUN/Rcirc)
+Gitee page: [Gitee](https://gitee.com/pssun/Rcirc)
