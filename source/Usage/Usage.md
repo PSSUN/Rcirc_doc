@@ -50,6 +50,8 @@ PredictCirc(sam = sam, fa = fa, out = out, gtf = gtf)
 
 ## Downstream analysis
 
+**NOTE:** Make sure there are no lines in the gff file that begin with '#'.
+
 ### Find the stem-ring structure
 
 **stemRing()** function can help to find out the stem-ring stucture from the given **circRNAs bed file** and **genome fasta file** by compare the upstream and downstrean sequence. It can output a csv file which contains all the information.
