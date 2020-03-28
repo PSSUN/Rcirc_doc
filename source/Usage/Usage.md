@@ -1,7 +1,7 @@
 # Usage
 The package provides numerous analyses for both upstream and downstream research, including circRNA detection, coding ability identification, single feature analyses and visualization of meta-features. Furthermore, the users can visualize the read mapping for each back-splice junction of circRNA by using Rcirc with sequencing data.  
 
-**NOTE:** Make sure there are no lines in the gff file that begin with '#'.
+**NOTE:** Many functions require gff files as input. Make sure there are no lines in the gff file that begin with '#'.
 
 ## Download data
 
@@ -50,7 +50,7 @@ PredictCirc(sam = sam, fa = fa, out = out, gtf = gtf)
 
 ## Downstream analysis
 
-**NOTE:** Make sure there are no lines in the gff file that begin with '#'.
+**NOTE:** Many functions require gff files as input. Make sure there are no lines in the gff file that begin with '#'.
 
 ### Find the stem-ring structure
 
