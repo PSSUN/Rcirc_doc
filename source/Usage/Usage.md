@@ -1,6 +1,8 @@
 # Usage
 The package provides numerous analyses for both upstream and downstream research, including circRNA detection, coding ability identification, single feature analyses and visualization of meta-features. Furthermore, the users can visualize the read mapping for each back-splice junction of circRNA by using Rcirc with sequencing data.  
 
+**NOTE:** Make sure there are no lines in the gff file that begin with '#'.
+
 ## Download data
 
 **downloadCircRNA()** can help to download the circRNA data from published database, usage:
