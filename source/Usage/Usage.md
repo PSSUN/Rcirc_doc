@@ -110,8 +110,9 @@ Rcirc can help to veiw the meta-feature of mount of circRNA by the function **sh
 circbed = '/path/to/circRNA/bed/file/'
 gff = '/path/to/genome/gff/file'  
 genomefasta = '/path/to/genome/fasta'
-ribo = '/path/to/ribo-seq/bam/file'   # A bam file that align Ribo-seq data to genome
-rna = '/path/to/rna-seq/bam/file'     # A bam file that align RNA-seq data to genome
+# you can use 'bedtools bamtobed' to transform 'bam file' to 'bed file'
+ribo = '/path/to/ribo-seq/bed/file'   # A bam file that align Ribo-seq data to genome
+rna = '/path/to/rna-seq/bed/file'     # A bam file that align RNA-seq data to genome
 
 # analysis 
 showOverview(circbed = circbed,
