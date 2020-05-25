@@ -111,8 +111,8 @@ circbed = '/path/to/circRNA/bed/file/'
 gff = '/path/to/genome/gff/file'  
 genomefasta = '/path/to/genome/fasta'
 # you can use 'bedtools bamtobed' to transform 'bam file' to 'bed file'
-ribo = '/path/to/ribo-seq/bed/file'   # A bam file that align Ribo-seq data to genome
-rna = '/path/to/rna-seq/bed/file'     # A bam file that align RNA-seq data to genome
+ribo = '/path/to/ribo-seq/bed/file'   # A bed file from bam file that align Ribo-seq data to genome
+rna = '/path/to/rna-seq/bed/file'     # A bed file from bam file that align RNA-seq data to genome
 
 # analysis 
 showOverview(circbed = circbed,
