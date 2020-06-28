@@ -2,11 +2,13 @@
 
 ## Title
 
-**Rcirc: an R package for circRNA analyses and visualization**
+**Rcirc: an R package for circRNA analyses and visualization** 
+
+
 
 ## Journal
 
-Unpublished
+Front. Genet., 05 June 2020 | https://doi.org/10.3389/fgene.2020.00548
 
 ## Author
 
