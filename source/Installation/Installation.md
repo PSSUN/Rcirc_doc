@@ -33,7 +33,7 @@ required_list <- c(
 )
 for (i in required_list) {
   if (i %in% installed_list) {
-    print(paste(i,'has installed'))
+    print(paste(i,'has been installed'))
   }
   else{
     print('----------------------')
