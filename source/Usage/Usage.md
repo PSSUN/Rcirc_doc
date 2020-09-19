@@ -154,7 +154,7 @@ upstream = 100    # Upstream distance to junction (bp)
 downstream = 100  # Downstream distance to junction (bp)
   
 # analysis  
-pic <- mappingPlot(summary = summary,
+pic <- showMapping(summary = summary,
                    circ_index = index,
  	           genomefile = fa,
 		   upstream = upstream,
